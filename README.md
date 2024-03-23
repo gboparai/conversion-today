@@ -1,5 +1,8 @@
 # Conversion Today
 
+## Description:
+Welcome to the Conversion Today repository! This codebase powers the conversiontoday.com website, offering seamless image conversion capabilities directly within your browser using WebAssembly technology.
+
 ## Use it now
 https://conversiontoday.com/
 
@@ -22,3 +25,9 @@ npm run build
 ```
 npm run lint
 ```
+
+## Contributing
+Contributions are welcome to enhance functionality, improve performance, or refine user experience. Fork the repository, make your changes, and submit a pull request.
+
+## Feedback
+We value your feedback and suggestions. Please feel free to open an issue to report bugs, suggest new features, or share your thoughts.
