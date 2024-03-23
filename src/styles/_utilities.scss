@@ -1,0 +1,57 @@
+$alBlack: #222;
+$black: #000;
+$alWhite: #ddd;
+$white: #fff;
+
+$negative: #b71c1c;
+$positive: #1b5e20;
+$blue: #03a9f4;
+
+$tablet-break: 56rem;
+$mobile-break: 35rem;
+
+$default-radius: 0.5rem;
+
+@mixin mid-width {
+    width: 55rem;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media screen and (max-width: $tablet-break) {
+        width: auto;
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+    @media screen and (max-width: $mobile-break) {
+        width: auto;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+@mixin mid-width-flex {
+    max-width: 60vw;
+    min-width: 55rem;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media screen and (max-width: $tablet-break) {
+        min-width: initial;
+        max-width: initial;
+        width: auto;
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+    @media screen and (max-width: $mobile-break) {
+        width: auto;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+@mixin abs-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
